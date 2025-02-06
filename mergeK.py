@@ -4,7 +4,6 @@ class ListNode:
         self.next = next
 
 class Solution:
-#      MAKE CHANGES TO THIS FUNCTION ONLY
     def mergeKLists(self, lists):
         if not lists:
             return None
