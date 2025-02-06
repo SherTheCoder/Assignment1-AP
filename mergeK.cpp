@@ -14,7 +14,6 @@ struct ListNode {
 
 class Solution {
 public:
-    //MAKE CHANGES IN THIS FUNCTION ONLY
     ListNode* mergeKLists(vector<ListNode*>& lists) {
         if(lists.empty()) return NULL;
         for(int i = 1 ; i < lists.size() ; i ++){
