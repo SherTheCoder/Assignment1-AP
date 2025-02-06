@@ -9,7 +9,6 @@ class ListNode {
 }
 
 class Solution {
-    //MAKE CHANGES TO THIS FUNCTION ONLY
     public ListNode mergeKLists(List<ListNode> lists) {
         if (lists.isEmpty()) return null;
         for (int i = 1; i < lists.size(); i++) {
